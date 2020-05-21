@@ -1,6 +1,6 @@
-# servicebus-bus-common
-[![Build Status](https://travis-ci.org/patrickleet/servicebus-bus-common.svg?branch=master)](https://travis-ci.org/patrickleet/servicebus-bus-common)
-[![codecov](https://codecov.io/gh/patrickleet/servicebus-bus-common/branch/master/graph/badge.svg)](https://codecov.io/gh/patrickleet/servicebus-bus-common) [![Greenkeeper badge](https://badges.greenkeeper.io/patrickleet/servicebus-bus-common.svg)](https://greenkeeper.io/)
+# @servicebus/rabbitbus-common
+[![Build Status](https://travis-ci.org/servicebus/rabbitbus-common.svg?branch=master)](https://travis-ci.org/servicebus/rabbitbus-common)
+[![codecov](https://codecov.io/gh/servicebus/rabbitbus-common/branch/master/graph/badge.svg)](https://codecov.io/gh/servicebus/rabbitbus-common)
 
 ## Usage Example
 
@@ -11,8 +11,8 @@
 import path from 'path'
 import log from 'llog'
 import errortrap from 'errortrap'
-import registerHandlers from 'servicebus-register-handlers'
-import { makeBus, handleError } from 'servicebus-bus-common';
+import registerHandlers from '@servicebus/register-handlers'
+import { makeBus, handleError } from '@servicebus/rabbitbus-common';
 import { config } from '../config.mjs'
 
 errortrap()
