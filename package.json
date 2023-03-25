@@ -16,7 +16,7 @@
   "dependencies": {
     "@servicebus/rabbitbus": "^1.0.0",
     "@servicebus/retry": "^1.0.0",
-    "llog": "^0.2.0"
+    "llog": "^0.3.0"
   },
   "devDependencies": {
     "commitizen": "4.2.2",
